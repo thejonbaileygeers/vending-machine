@@ -1,4 +1,6 @@
-package com.techelevator;
+package com.techelevator.VendingMachine;
+
+import com.techelevator.VendingMachine.Purchasables;
 
 import java.io.File;
 import java.io.FileNotFoundException;

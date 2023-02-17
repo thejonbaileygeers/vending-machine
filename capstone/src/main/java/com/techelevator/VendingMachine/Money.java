@@ -1,9 +1,10 @@
-package com.techelevator;
+package com.techelevator.VendingMachine;
 
 import java.math.BigDecimal;
 
 public class Money {
     private BigDecimal balance = new BigDecimal("0.00");
+
 
     public BigDecimal getBalance() {
         return this.balance;
@@ -16,6 +17,7 @@ public class Money {
     public void reduceBalance(BigDecimal price) {
         if (balance.compareTo(price) >= 0) {
             balance = balance.subtract(price);
+
         } else {
             System.out.println("Don't have enough!");
         }

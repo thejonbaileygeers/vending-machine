@@ -1,4 +1,4 @@
-package com.techelevator;
+package com.techelevator.VendingMachine;
 
 import java.math.BigDecimal;
 
